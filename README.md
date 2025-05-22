@@ -1,19 +1,28 @@
-# 🎈 Blank app template
+# 📰 Fake News Detection
 
-A simple Streamlit app template for you to modify!
+A simple and interactive **Streamlit web application** that detects whether a given news headline is **real** or **fake**, using pre-trained machine learning models like SVM, XGBoost, Logistic Regression, and PassiveAggressive.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+> Enter any news headline
+> Choose a model
+> Get real-time predicitons 
 
-### How to run it on your own machine
+### Demo
 
-1. Install the requirements
+###ADD DEMO LINK
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Features
+- Input news text to check its authenticity
+- Select from multiple ML models
+- Clean and modern UI
 
-2. Run the app
+## Models Used
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- **SVM** (`SVM_model.pkl`)
+- **XGBoost** (`XGBoost_model.pkl`)
+- **PassiveAggressiveClassifier** (`PassiveAggressive_model.pkl`)
+
+## How to Run Locally
+
+```bash
+git clone [https](https://github.com/Dhrumilpatel25/fake-news-detection.git)
+
